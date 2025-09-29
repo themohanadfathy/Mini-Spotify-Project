@@ -72,7 +72,7 @@ int main() {
                  << "1) Pop\n2) Rock\n3) Arabic\n> ";
             int g = readChoice(1, 3);
 
-            const string* glist; int gn = 3;
+            const string* glist; int gn = 2;
             if (g == 1)      glist = pop;
             else if (g == 2) glist = rock;
             else             glist = arabic;
