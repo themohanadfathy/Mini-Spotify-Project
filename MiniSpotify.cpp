@@ -77,8 +77,8 @@ int main() {
             else if (g == 2) glist = rock;
             else             glist = arabic;
 
-            // simple fallback example: if Sad + Rock, pretend mismatch and fallback to moody
-            bool likelyMismatch = (mood == 2 && g == 3);
+            // simple fallback example: if Sad + Rock, pretend mismatch and fallback to mood
+            bool likelyMismatch = (mood == 2 && g == 2);
             if (likelyMismatch) {
                 const string* list; int n = 3;
                 switch (mood) {
